@@ -1,0 +1,24 @@
+body{
+    background-color: #360568;
+}
+
+.title{
+    font-family: Arial;
+    color: black;
+    text-align: center;
+    background-color: #5B2A86;
+    border: 10px outset #7785AC;
+
+}
+
+.index{
+    font-family: Arial;
+    text-align: center;
+    color: #fff;
+    background-color: #9AC6C5;
+    border: 10px outset #000000;
+}
+
+e1{
+    
+}

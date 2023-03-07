@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Ejercicio 10</h2>
+    <p>Calcular la utilidad que un trabajador recibe en el reparto anual de utilidades si este se le asigna como un porcentaje de su salario mensual que depende de su antigüedad en la empresa de acuerdo con los siguientes datos:</p>
+    <br>Menos de 1 año-5% del salario<br>
+    <br>1 año o más y menos de 2 años-7% del salario<br>   
+    <br>2 años o más y menos de 5 años-10% del salario<br>
+    <br>5 años o más y menos de 10 años-15% del salario<br>
+    <br>10 años o más-20% del salario
+    <form>
+        <br>
+        <label>Años trabajados</label>
+        <input type="text" name="años "id="años">
+        <br>
+        <label>Meses trabajando (después de los años que ya se mencionaron)</label>
+        <input type="text" name="meses" id="meses">
+        <br>
+        <label> Pago por mes</label>
+        <input type="text" name="pagomes" id="pagomes"> 
+        <br>
+        <input type="button" value="Calcular" onclick="ejercicio10()"/>
+        <br>
+        <label>La utilidad anual es:</label>
+        <input type="text" id="utilidad" disabled/><br>
+        <label>El salario total de este año + la utilidad es:</label>
+        <input type="text" id="sutilidad" disabled/>
+    </form>
+</body>
+</html>
